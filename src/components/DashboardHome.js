@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
+    color: '#1d2d49',
     boxShadow: "1px 1px 14px 0 rgba(50, 60, 70, 0.08)"
   },
 }));
