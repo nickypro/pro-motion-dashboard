@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import {Provider} from 'react-redux'
+import {reduxStore} from './redux'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={reduxStore}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
